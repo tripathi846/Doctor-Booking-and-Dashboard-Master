@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --green:#9fb8eb;
+    --light-color:rgb(158, 181, 225);
+    --border:.2rem solid var(--green);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f6faff;
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+    color: var(--green);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+form label{
+    display: block;
+    margin-bottom: .5rem;
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"],
+form input[type="email"],
+form input[type="tel"]{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: var(--border);
+    border-radius: .5rem;
+    font-size: 1.5rem;
+}
+
+form input[type="submit"]{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    background: var(--green);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+form input[type="submit"]:hover{
+    background: var(--light-color);
+}
+
+#appointmentDetails{
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+#appointmentDetails p{
+    font-size: 1.5rem;
+    color: var(--green);
+    margin-bottom: 1rem;
+}
