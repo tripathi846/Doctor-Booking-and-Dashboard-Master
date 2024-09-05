@@ -11,6 +11,7 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./search.css">
 
 </head>
 <body>
@@ -25,6 +26,8 @@
         <a href="./index.html">home</a>
         <a href="./book.html">Book</a>
         <a href="./search.html">Search</a>
+        <a href="./doctorREg.html">Add Doctors</a>
+
       
   
     </nav>
@@ -33,65 +36,26 @@
 
 </header>
 
-<!-- header section ends -->
 
-<!-- home section starts  -->
 
-<section class="home" id="home">
-
-    
-        <div class="content">
-            <h3>Search Now</h3>
-        </div>
-   
-
-    
-</section>
 <section class="doctors" id="doctors">
+        <h3 style="text-align:center; margin-top:40px;" class="heading">Search Now</h3>
+    
 
     <h1 class="heading"> our doctors </h1>
 
     
-        <input type="search"  placeholder="Search.." class="box-text">
-        <input type="submit" value="Search" class="btn">
-    
+    <input type="text" onmouseenter="searchDoctors()" placeholder="Search.." class="box-text">
+    <input type="submit" value="Search" class="btn">
+    <div class="box-container1">
+      </div>
 
+      <!--  -->
     <div class="box-container">
-
-       
-
-        <div class="box">
-            <img src="image/doc-2.jpg" alt="">
-            <h3>Dr.Ali</h3>
-            <span>expert doctor</span>
-            <br>
-            <a href="./book.html" class="btn"> Booking <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <img src="image/doc-3.jpg" alt="">
-            <h3>Dr.Khaled</h3>
-            <span>expert doctor</span>
-            <br>
-            <a href="./book.html" class="btn"> Booking <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <img src="image/doc-4.jpg" alt="">
-            <h3>Dr.Yasser</h3>
-            <span>expert doctor</span>
-            <br>
-            <a href="./book.html" class="btn"> Booking <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <img src="image/doc-5.jpg" alt="">
-            <h3>Dr.Mohammad</h3>
-            <span>expert doctor</span>
-            <br>
-            <a href="./book.html" class="btn"> Booking <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
+      <!-- This will be populated with the filtered list of doctors -->
+      <div class="box">
+        <!-- Each doctor will be displayed in a .box element -->
+      </div>
     </div>
 
 </section>
@@ -106,21 +70,24 @@
             <a href="./index.html"> <i class="fas fa-chevron-right"></i> home </a>
             <a href="./book.html"> <i class="fas fa-chevron-right"></i> book </a>
             <a href="./search.html"> <i class="fas fa-chevron-right"></i> search </a>
+            <a href="./doctorREg.html"><i class="fas fa-chevron-right"></i>Add Doctors</a>
+
             
         </div>
 
         <div class="box">
             <h3>our services</h3>
             <a href="book.html"> <i class="fas fa-chevron-right"></i> book an appointment </a>
+            <a href="./doctorREg.html"><i class="fas fa-chevron-right"></i>Add Doctors</a>
             <a href="search.html"> <i class="fas fa-chevron-right"></i> Search an Doctors</a>
         </div>
 
         <div class="box">
             <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +201224563274 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +201224563274</a>
-            <a href="#"> <i class="fas fa-envelope"></i> mohagamal475@gmail.com</a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Egypt </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 1234567890</a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 123456789</a>
+            <a href="#"> <i class="fas fa-envelope"></i> Shivanshtripathi846@gmail.com</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> India </a>
         </div>
 
         <div class="box">
@@ -135,6 +102,6 @@
     <div class="credit"> created by <span>Team</span> | all rights reserved </div>
 
 </section>
-
+<script src="./search.js"></script>
 </body>
 </html>

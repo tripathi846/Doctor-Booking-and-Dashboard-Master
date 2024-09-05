@@ -23,6 +23,7 @@
             <a href="./index.html">home</a>
             <a href="./book.html">Book</a>
             <a href="./search.html">Search</a>
+            <a href="./doctorREg.html">Add Doctors</a>
 
         </nav>
     
@@ -37,7 +38,7 @@
 <section class="home" id="home">
 
     <div class="content">
-        <h3>Book Now</h3>
+        <h3 style="text-align:center; margin-top:40px;margin-right:120px">Book Now</h3>
     </div>
 </section>
 <section class="book" id="book">
@@ -64,13 +65,9 @@
             </select>
             <select class="box" name="doctor">
                 <option value="Doctors">Doctors</option>
-                <option value="Mohammad">Mohammad</option>
-                <option value="Khaled">Khaled</option>
-                <option value="Ali">Ali</option>
-                <option value="yasser">yasser</option>
             </select>
             <input type="date" class="box" name="data">
-            <input type="submit" value="book now" name="send" class="btn">
+            <input type="button" value="book now" onclick="bookAppointment()"class="btn">
         </form>
 
     </div>
@@ -87,6 +84,7 @@
             <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
             <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
             <a href="#"> <i class="fas fa-chevron-right"></i> doctors </a>
+            <a href="./doctorREg.html"><i class="fas fa-chevron-right"></i>Add Doctors</a>
             <a href="#"> <i class="fas fa-chevron-right"></i> book </a>
             <a href="#"> <i class="fas fa-chevron-right"></i> review </a>
             <a href="#"> <i class="fas fa-chevron-right"></i> blogs </a>
@@ -95,15 +93,16 @@
         <div class="box">
             <h3>our services</h3>
             <a href="book.html"> <i class="fas fa-chevron-right"></i> book an appointment </a>
+            <a href="./doctorREg.html"><i class="fas fa-chevron-right"></i>Add Doctors</a>
             <a href="search.html"> <i class="fas fa-chevron-right"></i> Search an Doctors</a>
         </div>
 
         <div class="box">
             <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +201224563274 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +201224563274</a>
-            <a href="#"> <i class="fas fa-envelope"></i> mohagamal475@gmail.com</a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Egypt </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 1234567890</a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 123456789</a>
+            <a href="#"> <i class="fas fa-envelope"></i> Shivanshtripathi846@gmail.com</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> India </a>
         </div>
 
         <div class="box">
@@ -118,5 +117,7 @@
     <div class="credit"> created by <span>Team</span> | all rights reserved </div>
 
 </section>
+
+<script src="./book.js"></script>
 </body>
 </html>

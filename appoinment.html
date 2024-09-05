@@ -5,9 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Appointment</title>
-    <link rel="stylesheet" href="appointment.css">
+    <link rel="stylesheet" href="appoinment.css">
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="Preloader"></div>
+    <!-- header section starts  -->
+    
+    <header class="header">
+    
+        
+    
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./book.html">Book</a>
+            <a href="./search.html">Search</a>
+            <a href="./doctorReg.html">Add Doctors</a>
+          
+      
+        </nav>
+    
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+    </header>
+
+
+
     <h1>Book an Appointment</h1>
     <form id="appointmentForm">
         <label for="name">Name:</label>
@@ -28,9 +55,56 @@
         <input type="submit" value="Book Appointment">
     </form>
     
-    <h2>Appointment Details</h2>
+    <h2 style="text-align: center; margin-top:40px">Appointment Details</h2>
     <div id="appointmentDetails"></div>
     
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> doctors </a>
+            <a href="./doctorREg.html"><i class="fas fa-chevron-right"></i>Add Doctors</a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> book </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> review </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>our services</h3>
+            <a href="book.html"> <i class="fas fa-chevron-right"></i> book an appointment </a>
+            <a href="./doctorREg.html"><i class="fas fa-chevron-right"></i>Add Doctors</a>
+            <a href="search.html"> <i class="fas fa-chevron-right"></i> Search an Doctors</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 1234567890</a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 123456789</a>
+            <a href="#"> <i class="fas fa-envelope"></i> Shivanshtripathi846@gmail.com</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> India </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>Team</span> | all rights reserved </div>
+
+</section>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
     <script src="appointment.js"></script>
 </body>
 </html>

@@ -329,6 +329,66 @@ section:nth-child(even){
     padding:1rem 4rem;
 }
 
+
+/* doctor registration form css */
+.doctorBook{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.doctorBook .row{
+    width: 100%;
+    display: flex;
+    /* align-items:normal; */
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:2rem;
+    /* border: 1px solid black; */
+
+}
+ 
+.doctorBook .row .image{
+    width: 100%;
+    flex:1 1 50rem;
+}
+
+.doctorBook .row .image img{
+    width: 70%;
+}
+
+.doctorBook .row form{
+    /* width: 20%; */
+    flex:1 1 1rem;
+    background: #fff;
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.doctorBook .row form h3{
+    color:var(--black);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.doctorBook .row form .box{
+    width: 100%;
+    margin:.2rem 0;
+    border-radius: .5rem;
+    border:var(--border);
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
+
+
+.doctorBook .row form .btn{
+    padding:1rem 4rem;
+}
+
+/* doctor registration end */
 .review .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));

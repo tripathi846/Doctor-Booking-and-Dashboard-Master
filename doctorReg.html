@@ -39,75 +39,22 @@
 
 <!-- home section starts  -->
 
-<section class="home" id="home">
-
-    <div class="content">
-        <h3>We take Care of</h3>
-        <p>Your Health</p>
-    </div>
-    <div class="img1"></div>
-    <div class="img2">
-        <img src="./image/doctor3.png" alt="doctor" >
-    </div>
-    
-   
-
-   
-</section>
-
-<!-- home section ends -->
-
-<!-- icons section starts  -->
-
-
-
-<!-- icons section ends -->
-
-<!-- services section starts  -->
-
-<section class="services" id="services">
-
-    <h1 class="heading"> our services</h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <i class="fas fa-notes-medical"></i>
-            <h3>book an appointment</h3>
-            <p>You can book an appointment in an easier way</p>
-            <a href="./book.html" class="btn"> Booking <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-stethoscope "></i>
-            <h3>Search an Doctors</h3>
-            <p>You can Search an doctors in an easier way</p>
-            <a href="./search.html" class="btn"> Search <span class="fas fa-chevron-right"></span> </a>
-        </div>
-</section>
-
-<!-- services section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-    <h1 class="heading"> about us </h1>
-
+<section class="home doctorBook">
     <div class="row">
 
         <div class="image">
-            <img src="./image/doc-1-r.png" alt="doctor"  height="500px">
+            <img src="image/doc-3-r.png" alt="doctor" width="300px" height="500px">
         </div>
-
-        <div class="content">
-            <h3>we take care of your health life</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates voluptatibus a nihil temporibus deserunt vel?</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
+        <form id="doctor-registration-form">
+            <input type="text" class="box" id="name" name="name" placeholder="Enter Doctor's full name"><br><br>
+            <input type="text" class="box" id="expertise" name="expertise" placeholder="Enter your expertise (separate multiple with commas)"><br><br>
+            <input type="number" class="box" id="experience" name="experience" placeholder="Enter your experience in years"><br><br>
+            <input type="url" class="box" id="imageUrl" name="imageUrl" placeholder="Enter the URL of your profile image"><br><br>
+            <input type="submit" class="btn" onclick="doctorReg()" value="Register">
+          </form>
     </div>
+</section>
+
 
 </section>
 
@@ -122,8 +69,8 @@
             <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
             <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
             <a href="#about"> <i class="fas fa-chevron-right"></i> about </a>
-            <a href="./search.html"> <i class="fas fa-chevron-right"></i> doctors </a>
             <a href="./doctorREg.html"><i class="fas fa-chevron-right"></i>Add Doctors</a>
+            <a href="./search.html"> <i class="fas fa-chevron-right"></i> doctors </a>
             <a href="./book.html"> <i class="fas fa-chevron-right"></i> book </a>
             <a href="#review"> <i class="fas fa-chevron-right"></i> review </a>
             <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs </a>
@@ -160,6 +107,7 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+<script src="./doctorReg.js"></script>
 
 </body>
 </html>

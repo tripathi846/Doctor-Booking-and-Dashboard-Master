@@ -1,0 +1,110 @@
+{
+  "Doctors": [
+    {
+      "id": "af7a",
+      "name": "Dr. John Smith",
+      "expertise": [
+        "Cardiology",
+        " Internal Medicine"
+      ],
+      "experience": 10,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh3iSuJEXYrcC6EzvShGsqUR_ZyPy_ypXXag&s"
+    },
+    {
+      "id": "6471",
+      "name": "Dr. Jane Doe",
+      "expertise": [
+        "Pediatrics",
+        " Neonatology"
+      ],
+      "experience": 5,
+      "imageUrl": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlNl9waG90b19vZl9hX21hdHVyZV9pbmRpYW5fZmVtYWxlX2RvY3Rvcl9zaG93aW5nX182NWNjMmYyMS02ZTRlLTRlMTMtOGQ4Yy1hNzYxZmIxYmIyMTJfMi5qcGc.jpg"
+    },
+    {
+      "id": "fd34",
+      "name": "Dr. Michael Brown",
+      "expertise": [
+        "Orthopedic Surgery",
+        "  Sports Medicine"
+      ],
+      "experience": 15,
+      "imageUrl": "https://www.transparentpng.com/thumb/doctor/smiling-handsome-doctor-free-png--3kFuBJ.png"
+    },
+    {
+      "id": "0886",
+      "name": "Dr. Emily Chen",
+      "expertise": [
+        "Dermatology",
+        " Cosmetic Surgery"
+      ],
+      "experience": 8,
+      "imageUrl": "https://www.transparentpng.com/thumb/doctor/american-male-doctor-free-transparent--poYuAX.png"
+    },
+    {
+      "id": "4ccf",
+      "name": "Dr. David Lee",
+      "expertise": [
+        "Oncology",
+        " Hematology"
+      ],
+      "experience": 12,
+      "imageUrl": "https://www.transparentpng.com/thumb/doctor/pen-in-hand-male-doctor-free-transparent-bWzUD9.png"
+    }
+  ],
+  "Appointments": [
+    {
+      "id": "ade5",
+      "name": "Abhay Dixit",
+      "phone": 7017709865,
+      "email": "Shivamdixit1st@gmail.com",
+      "specialization": "teeth",
+      "doctor": "Dr. Michael Brown",
+      "date": "2024-09-05"
+    },
+    {
+      "id": "b610",
+      "name": "Abhay Dixit",
+      "phone": 7017709865,
+      "email": "Shivamdixit1st@gmail.com",
+      "specialization": "teeth",
+      "doctor": "Dr. Michael Brown",
+      "date": "2024-09-06"
+    },
+    {
+      "id": "ef5b",
+      "name": "Abhay Dixit",
+      "phone": 7017709865,
+      "email": "Shivamdixit1st@gmail.com",
+      "specialization": "teeth",
+      "doctor": "Dr. Jane Doe",
+      "date": "2024-09-05"
+    },
+    {
+      "id": "1df7",
+      "name": "Shivansh Tripathi",
+      "phone": 7017709865,
+      "email": "Shivamdixit1st@gmail.com",
+      "specialization": "Nose",
+      "doctor": "Dr. Emily Chen",
+      "date": "2024-09-06"
+    },
+    {
+      "id": "8eca",
+      "name": "shivansh triipathi",
+      "phone": 1234567890,
+      "email": "Shiavnshtripati846@gmail.com",
+      "specialization": "Nose",
+      "doctor": "Dr. Michael Brown",
+      "date": "2024-09-06"
+    },
+    {
+      "id": "7da0",
+      "name": "shivansh tripathi",
+      "phone": 1234567890,
+      "email": "Shiavnshtripati846@gmail.com",
+      "specialization": "teeth",
+      "doctor": "Dr. Jane Doe",
+      "date": "2024-09-07"
+    }
+  ]
+}
